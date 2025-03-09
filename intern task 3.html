@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .navbar {
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+        .product-img {
+            width: 100%;
+            border-radius: 15px;
+            transition: transform 0.4s ease-in-out;
+        }
+        .product-img:hover {
+            transform: scale(1.1);
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+        }
+        .price {
+            color: #e74c3c;
+            font-size: 22px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #27ae60;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.2s;
+        }
+        .btn:hover {
+            background: #2ecc71;
+            transform: scale(1.1);
+        }
+        .reviews, .related-products {
+            margin-top: 30px;
+            text-align: left;
+            padding: 20px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="container">
+        <img src="https://via.placeholder.com/500" class="product-img" alt="Product Image">
+        <h2>Stylish Sneakers</h2>
+        <p>Comfortable and trendy sneakers for everyday wear.</p>
+        <div class="price">₹2,999</div>
+        <a href="#" class="btn">Add to Cart</a>
+    </div>
+    <div class="reviews">
+        <h3>Customer Reviews</h3>
+        <p>⭐⭐⭐⭐☆ - Great quality, very comfortable!</p>
+        <p>⭐⭐⭐⭐⭐ - Amazing shoes, worth the price!</p>
+    </div>
+    <div class="related-products">
+        <h3>Related Products</h3>
+        <ul>
+            <li>👟 Running Shoes - ₹2,499</li>
+            <li>👟 Casual Sneakers - ₹3,199</li>
+            <li>👟 Sports Shoes - ₹2,899</li>
+        </ul>
+    </div>
+</body>
+</html>
